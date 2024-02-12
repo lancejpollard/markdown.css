@@ -25,6 +25,8 @@
 - https://github.com/sindresorhus/github-markdown-css/blob/main/index.html
 - https://github.com/phibr0/obsidian-latex-css/tree/main
 - https://github.com/vincentdoerig/latex-css
+- https://github.com/jonathantneal/google-fonts-complete/blob/master/google-fonts.json
+- https://github.com/fontsource/font-files/tree/main
 
 ## License
 
