@@ -1,0 +1,13 @@
+#hook {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+#tool {
+  border-radius: 4px;
+  appearance: auto;
+  background: gray;
+  color: white;
+  padding: 8px;
+}
