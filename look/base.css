@@ -20,7 +20,7 @@ details::-webkit-details-marker {
   display: none;
 }
 
-details>summary:first-of-type,
+details > summary:first-of-type,
 details:first-of-type {
   list-style-type: none;
 }

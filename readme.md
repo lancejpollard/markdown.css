@@ -17,7 +17,8 @@
 
 ## Test
 
-Visit `text.html` to go through the potential themes and add more!
+- Visit `text.html` to go through the potential themes and add more!
+- The `look/base.css` is the starting point CSS to build a new theme off of.
 
 ## Inspiration
 
