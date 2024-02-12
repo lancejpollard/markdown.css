@@ -1,0 +1,25 @@
+li {
+  text-align: -webkit-match-parent;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p {
+  margin: 0 0 1.6em 0;
+}
+
+hr {
+  border: none;
+  background-color: rgba(56, 58, 60, 0.9);
+  height: 2px;
+  width: 40px;
+  margin: 0 0 10px 0;
+  background: none;
+  outline: 0;
+}

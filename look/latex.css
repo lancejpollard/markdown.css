@@ -1,3 +1,5 @@
+@import url('./base.css');
+
 /*!
  * LaTeX.css (https://latex.now.sh/)
  *
@@ -80,18 +82,20 @@ html {
 body {
   font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman',
     Times, serif;
-  line-height: 1.8;
 
   min-height: 100vh;
   overflow-x: hidden;
   padding: 2rem 1.25rem;
 
   counter-reset: theorem definition sidenote-counter;
-
-  color: var(--body-color);
   background-color: var(--body-bg-color);
 
   text-rendering: optimizeLegibility;
+}
+
+* {
+  color: var(--body-color);
+  line-height: 1.8;
 }
 
 /* Justify and hyphenate all paragraphs */
@@ -153,7 +157,7 @@ kbd {
   font-size: 85%;
 }
 pre {
-  padding: 1rem 1.4rem;
+  padding: 16px;
   max-width: 100%;
   overflow: auto;
   border-radius: 4px;
@@ -220,6 +224,69 @@ caption {
   margin-left: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+ol {
+  list-style-position: inside;
+  list-style-type: decimal;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: disc;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 0px;
+  padding: 0px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul > li:before {
+  content: '*';
+  margin-left: 0px;
+}
+
+ol,
+ul {
+  margin-left: 16px;
+}
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  left: -3px;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
 /* Center align the title */
 h1:first-child {
   text-align: center;
@@ -228,7 +295,7 @@ h1:first-child {
 /* Nested ordered list for ToC */
 ol {
   counter-reset: item;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
 }
 
 li {
@@ -243,6 +310,10 @@ li:before {
 
 dl dd {
   text-align: center;
+}
+
+dt {
+  font-weight: 400;
 }
 
 /* Make footnote text smaller and left align it (looks bad with long URLs) */
@@ -318,4 +389,32 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.8rem;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+dd {
+  display: block;
+  margin-inline-start: 40px;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+pre {
+  /* padding: 16px; */
 }
