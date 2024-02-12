@@ -18,11 +18,13 @@
 ## Test
 
 - Visit `text.html` to go through the potential themes and add more!
-- The `look/base.css` is the starting point CSS to build a new theme off of.
+- The `look/make.css` is the starting point CSS to build a new theme off of.
 
 ## Inspiration
 
 - https://github.com/sindresorhus/github-markdown-css/blob/main/index.html
+- https://github.com/phibr0/obsidian-latex-css/tree/main
+- https://github.com/vincentdoerig/latex-css
 
 ## License
 

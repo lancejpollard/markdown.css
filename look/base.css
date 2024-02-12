@@ -153,3 +153,19 @@ table {
 dd {
   margin-inline-start: 0px;
 }
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+dl,
+dd {
+  margin: 0;
+}

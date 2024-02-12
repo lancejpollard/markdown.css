@@ -1,13 +1,24 @@
 <head>
-  <link rel="stylesheet" href="look/base.css" />
-  <link rel="stylesheet" href="look/tool.css" />
-  <link id="look" rel="stylesheet" href="look/basic.css" />
+  <link
+    rel="stylesheet"
+    href="look/base.css"
+  />
+  <link
+    rel="stylesheet"
+    href="look/tool.css"
+  />
+  <link
+    id="look"
+    rel="stylesheet"
+    href="look/basic.css"
+  />
 </head>
 <body>
   <div id="hook">
     <select id="tool">
       <option value="basic">Basic</option>
       <option value="github">GitHub</option>
+      <option value="latex">LaTeX</option>
       <option value="retro">Retro</option>
       <option value="none">None</option>
     </select>
@@ -50,7 +61,10 @@
     <blockquote>
       <p>Blockquotes can also be nested…</p>
       <blockquote>
-        <p>…by using additional greater-than signs right next to each other…</p>
+        <p>
+          …by using additional greater-than signs right next to each
+          other…
+        </p>
         <blockquote>
           <p>…or with spaces between arrows.</p>
         </blockquote>
@@ -60,7 +74,8 @@
     <p>Unordered</p>
     <ul>
       <li>
-        Create a list by starting a line with <code>+</code>, <code>-</code>, or
+        Create a list by starting a line with <code>+</code>,
+        <code>-</code>, or
         <code>*</code>
       </li>
       <li>
@@ -127,15 +142,15 @@ line 3 of code
         <tr>
           <td>data</td>
           <td>
-            path to data files to supply the data that will be passed into
-            templates.
+            path to data files to supply the data that will be passed
+            into templates.
           </td>
         </tr>
         <tr>
           <td>engine</td>
           <td>
-            engine to be used for processing templates. Handlebars is the
-            default.
+            engine to be used for processing templates. Handlebars is
+            the default.
           </td>
         </tr>
         <tr>
@@ -156,15 +171,15 @@ line 3 of code
         <tr>
           <td style="text-align: right">data</td>
           <td style="text-align: right">
-            path to data files to supply the data that will be passed into
-            templates.
+            path to data files to supply the data that will be passed
+            into templates.
           </td>
         </tr>
         <tr>
           <td style="text-align: right">engine</td>
           <td style="text-align: right">
-            engine to be used for processing templates. Handlebars is the
-            default.
+            engine to be used for processing templates. Handlebars is
+            the default.
           </td>
         </tr>
         <tr>
@@ -180,7 +195,9 @@ line 3 of code
       <a href="http://dev.nodeca.com">link text</a>
     </p>
     <p>
-      <a href="http://nodeca.github.io/pica/demo/" title="title text!"
+      <a
+        href="http://nodeca.github.io/pica/demo/"
+        title="title text!"
         >link with title</a
       >
     </p>
@@ -193,7 +210,10 @@ line 3 of code
     </p>
     <h2>Images</h2>
     <p>
-      <img src="https://octodex.github.com/images/minion.png" alt="Minion" />
+      <img
+        src="https://octodex.github.com/images/minion.png"
+        alt="Minion"
+      />
       <img
         src="https://octodex.github.com/images/stormtroopocat.jpg"
         alt="Stormtroopocat"
@@ -208,17 +228,21 @@ line 3 of code
         title="The Dojocat"
       />
     </p>
-    <p>With a reference later in the document defining the URL location:</p>
+    <p>
+      With a reference later in the document defining the URL location:
+    </p>
     <h2>Plugins</h2>
     <p>
-      The killer feature of <code>markdown-it</code> is very effective support
-      of
+      The killer feature of <code>markdown-it</code> is very effective
+      support of
       <a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin"
         >syntax plugins</a
       >.
     </p>
     <h3>
-      <a href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a>
+      <a href="https://github.com/markdown-it/markdown-it-emoji"
+        >Emojies</a
+      >
     </h3>
     <blockquote>
       <p>Classic markup: 😉 😢 😆 😋</p>
@@ -226,28 +250,37 @@ line 3 of code
     </blockquote>
     <p>
       see
-      <a href="https://github.com/markdown-it/markdown-it-emoji#change-output"
+      <a
+        href="https://github.com/markdown-it/markdown-it-emoji#change-output"
         >how to change output</a
       >
       with twemoji.
     </p>
     <h3>
-      <a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a>
+      <a href="https://github.com/markdown-it/markdown-it-sub"
+        >Subscript</a
+      >
       /
-      <a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a>
+      <a href="https://github.com/markdown-it/markdown-it-sup"
+        >Superscript</a
+      >
     </h3>
     <ul>
       <li>19 <sup>th</sup></li>
       <li>H <sub>2</sub>O</li>
     </ul>
     <h3>
-      <a href="https://github.com/markdown-it/markdown-it-ins">&lt;ins&gt;</a>
+      <a href="https://github.com/markdown-it/markdown-it-ins"
+        >&lt;ins&gt;</a
+      >
     </h3>
     <p>
       <ins>Inserted text</ins>
     </p>
     <h3>
-      <a href="https://github.com/markdown-it/markdown-it-mark">&lt;mark&gt;</a>
+      <a href="https://github.com/markdown-it/markdown-it-mark"
+        >&lt;mark&gt;</a
+      >
     </h3>
     <p>
       <mark>Marked text</mark>
@@ -259,22 +292,44 @@ line 3 of code
     </h3>
     <p>
       Footnote 1 link
-      <sup class="footnote-ref"> <a href="#fn1" id="fnref1">[1]</a> </sup>.
+      <sup class="footnote-ref">
+        <a
+          href="#fn1"
+          id="fnref1"
+          >[1]</a
+        > </sup
+      >.
     </p>
     <p>
       Footnote 2 link
-      <sup class="footnote-ref"> <a href="#fn2" id="fnref2">[2]</a> </sup>.
+      <sup class="footnote-ref">
+        <a
+          href="#fn2"
+          id="fnref2"
+          >[2]</a
+        > </sup
+      >.
     </p>
     <p>
       Inline footnote
       <sup class="footnote-ref">
-        <a href="#fn3" id="fnref3">[3]</a>
+        <a
+          href="#fn3"
+          id="fnref3"
+          >[3]</a
+        >
       </sup>
       definition.
     </p>
     <p>
       Duplicated footnote reference
-      <sup class="footnote-ref"> <a href="#fn2" id="fnref2:1">[2:1]</a> </sup>.
+      <sup class="footnote-ref">
+        <a
+          href="#fn2"
+          id="fnref2:1"
+          >[2:1]</a
+        > </sup
+      >.
     </p>
     <h3>
       <a href="https://github.com/markdown-it/markdown-it-deflist"
@@ -310,33 +365,60 @@ line 3 of code
     </h3>
     <p>
       This is
-      <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.
+      <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation
+      example.
     </p>
     <p>
-      It converts " <abbr title="Hyper Text Markup Language">HTML</abbr>", but
-      keep intact partial entries like "xxxHTMLyyy" and so on.
+      It converts "
+      <abbr title="Hyper Text Markup Language">HTML</abbr>", but keep
+      intact partial entries like "xxxHTMLyyy" and so on.
     </p>
     <hr class="footnotes-sep" />
     <section class="footnotes">
       <ol class="footnotes-list">
-        <li id="fn1" class="footnote-item">
+        <li
+          id="fn1"
+          class="footnote-item"
+        >
           <p>Footnote <strong>can have markup</strong></p>
           <p>
             and multiple paragraphs.
-            <a href="#fnref1" class="footnote-backref">↩︎</a>
+            <a
+              href="#fnref1"
+              class="footnote-backref"
+              >↩︎</a
+            >
           </p>
         </li>
-        <li id="fn2" class="footnote-item">
+        <li
+          id="fn2"
+          class="footnote-item"
+        >
           <p>
             Footnote text.
-            <a href="#fnref2" class="footnote-backref">↩︎</a>
-            <a href="#fnref2:1" class="footnote-backref">↩︎</a>
+            <a
+              href="#fnref2"
+              class="footnote-backref"
+              >↩︎</a
+            >
+            <a
+              href="#fnref2:1"
+              class="footnote-backref"
+              >↩︎</a
+            >
           </p>
         </li>
-        <li id="fn3" class="footnote-item">
+        <li
+          id="fn3"
+          class="footnote-item"
+        >
           <p>
             Text of inline footnote
-            <a href="#fnref3" class="footnote-backref">↩︎</a>
+            <a
+              href="#fnref3"
+              class="footnote-backref"
+              >↩︎</a
+            >
           </p>
         </li>
       </ol>
